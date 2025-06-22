@@ -6,8 +6,16 @@ import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 
 const projects = [
   {
+    title: 'Youtube Transcript Summarizer',
+    description: 'This project is a YouTube transcript summarizer built with a modern tech stack. The frontend, powered by React, offers an intuitive user interface for submitting YouTube video links. On the backend, Django manages the application logic and interacts with SQLite for efficient data storage. The core summarization functionality is driven by Google GenAI, leveraging its advanced capabilities to condense lengthy video transcripts into concise summaries.',
+    technologies: ['django', 'React', 'SQLite', 'python', 'Google GenAi'],
+    github: 'https://github.com/adityasuthar/youtube-transcript-summarizer',
+    live: 'https://adityasuthar.github.io',
+    image: '/projects/YTsummarizer-logo.png',
+  },
+  {
     title: 'Contacts App',
-    description: 'A Django-based contacts management application with features for adding, editing, and managing contacts. Built with Django, HTML, and CSS.',
+    description: 'his is a straightforward Contacts Management Application built using the Django web framework. It provides essential features for efficiently adding, editing, and managing your contacts. The user interface is crafted with standard web technologies, HTML and CSS, ensuring a clear and functional experience.',
     technologies: ['Django', 'Python', 'HTML', 'CSS', 'SQLite'],
     github: 'https://github.com/adityasuthar/contacts-app',
     image: '/projects/contacts-app-logo.png',
@@ -15,19 +23,12 @@ const projects = [
   },
   {
     title: 'Polls API',
-    description: 'A RESTful API built with Django REST Framework for managing polls and votes. Features include question management, voting system, and API endpoints.',
+    description: 'This is a RESTful Polls API application, meticulously engineered using Django REST Framework. It provides robust functionalities for comprehensive question management and a seamless voting system. All features are exposed through well-defined API endpoints, enabling flexible integration and interaction for various client applications.',
     technologies: ['Django', 'Django REST', 'Python', 'SQLite'],
     github: 'https://github.com/adityasuthar/polls-api',
     image: '/projects/polls-api-logo.jpg',
+    live: 'https://adityasuthar.pythonanywhere.com/polls/',
   },
-  // {
-  //   title: 'Portfolio Website',
-  //   description: 'A modern portfolio website showcasing projects and skills with smooth animations and responsive design.',
-  //   technologies: ['Next.js', 'Tailwind CSS', 'Framer Motion'],
-  //   github: 'https://github.com/adityasuthar/portfolio',
-  //   live: 'https://adityasuthar.github.io',
-  //   image: '/projects/portfolio.jpg',
-  // },
 ];
 
 export default function Projects() {
